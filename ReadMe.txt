@@ -11,6 +11,8 @@ reverse engineering of the tier ini files and the user dat files. The second par
 web browser page which can be used to render HTML content. This allows the (tier) story line content to use
 a variety of media (basically anything the web browser control supports).
 
+Video Link: https://github.com/LordAshes/PhaseShiftCareerExtension
+
 FEATURES:
 
 - Can support tiers for all the main instrument types: bass, drums, guitar, and keys.
