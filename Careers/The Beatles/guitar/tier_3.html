@@ -1,0 +1,18 @@
+<HTML>
+<BODY OnLoad="FillInBandName()">
+  <SCRIPT Language=Javascript>
+    function FillInBandName()
+    {
+      var band = location.search.substring(location.search.indexOf("Param2=")+7);
+	  band = band.substring(0,band.indexOf(";"));
+	  document.getElementById("BandName").innerHTML=decodeURIComponent(band).replace("\"","").replace("\"","");
+    }
+  </SCRIPT>
+  <CENTER>
+    <DIV Id=Content Style="Width: 1024; Height: 768; background-color: blue;">
+      <DIV Id=BandName Style="Position: Relative; Width: 520px; Height: 0px; Top: 410px; Left: 215px; font-weight: bold; font-size: 12pt; z-Index: 2; color: white; transform: rotate(-5deg); opacity: 0.5; Text-Align: middle; text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;}"></DIV>
+      <IMG Src="tier_3.jpg" />
+    </DIV>  
+  </CENTER>
+</BODY>
+</HTML>
