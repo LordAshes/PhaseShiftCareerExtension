@@ -1,1 +1,8 @@
-NuGet Packages
+Required NuGet packages for download:
+
+CefSharp.WinForms.57.0.0
+CefSharp.Common.57.0.0 (added automatically with CefSharp.WinForms.57.0.0)
+Cef.Redist.x86.3.2987.1601 (added automatically with CefSharp.WinForms.57.0.0)
+Cef.Redist.x64.3.2987.1601 (added automatically with CefSharp.WinForms.57.0.0)
+
+A Visual Studio restart may be needed after installing the packages.
