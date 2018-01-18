@@ -1,0 +1,105 @@
+Once the project is compiled the Phase Shift Tier Plugin should be installed in a "extension" sub folder of the main Phase Shift folder.
+The Phase Shift Storyboard View should be installed in its own sub-folder. The following shows a sample layout of the files assuming
+that Phase Shift is installed on drive F (i.e. the Phase_Shift.exe is in F:\Phase Shift\):
+
+F:\Phase Shift\extension\PhaseShiftTier.dll
+F:\Phase Shift\extension\PhaseShiftTier.pdb
+F:\Phase Shift\extension\PhaseShiftTier.xml
+F:\Phase Shift\extension\PhaseShiftTierPlugin.exe
+F:\Phase Shift\extension\PhaseShiftTierPlugin.pdb
+F:\Phase Shift\extension\Phase_Shift_Guitar_Tiers.Bat
+F:\Phase Shift\extension\PhaseShiftStoryboardView
+F:\Phase Shift\extension\PhaseShiftStoryboardView\cef.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\CefSharp.BrowserSubprocess.Core.dll
+F:\Phase Shift\extension\PhaseShiftStoryboardView\CefSharp.BrowserSubprocess.Core.pdb
+F:\Phase Shift\extension\PhaseShiftStoryboardView\CefSharp.BrowserSubprocess.exe
+F:\Phase Shift\extension\PhaseShiftStoryboardView\CefSharp.BrowserSubprocess.pdb
+F:\Phase Shift\extension\PhaseShiftStoryboardView\CefSharp.Core.dll
+F:\Phase Shift\extension\PhaseShiftStoryboardView\CefSharp.Core.pdb
+F:\Phase Shift\extension\PhaseShiftStoryboardView\CefSharp.Core.xml
+F:\Phase Shift\extension\PhaseShiftStoryboardView\CefSharp.dll
+F:\Phase Shift\extension\PhaseShiftStoryboardView\CefSharp.pdb
+F:\Phase Shift\extension\PhaseShiftStoryboardView\CefSharp.WinForms.dll
+F:\Phase Shift\extension\PhaseShiftStoryboardView\CefSharp.WinForms.pdb
+F:\Phase Shift\extension\PhaseShiftStoryboardView\CefSharp.WinForms.xml
+F:\Phase Shift\extension\PhaseShiftStoryboardView\CefSharp.xml
+F:\Phase Shift\extension\PhaseShiftStoryboardView\cef_100_percent.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\cef_200_percent.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\cef_extensions.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\chrome_elf.dll
+F:\Phase Shift\extension\PhaseShiftStoryboardView\d3dcompiler_47.dll
+F:\Phase Shift\extension\PhaseShiftStoryboardView\debug.log
+F:\Phase Shift\extension\PhaseShiftStoryboardView\devtools_resources.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\icudtl.dat
+F:\Phase Shift\extension\PhaseShiftStoryboardView\libcef.dll
+F:\Phase Shift\extension\PhaseShiftStoryboardView\libEGL.dll
+F:\Phase Shift\extension\PhaseShiftStoryboardView\libGLESv2.dll
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales
+F:\Phase Shift\extension\PhaseShiftStoryboardView\natives_blob.bin
+F:\Phase Shift\extension\PhaseShiftStoryboardView\PhaseShiftStoryboardView.exe
+F:\Phase Shift\extension\PhaseShiftStoryboardView\PhaseShiftStoryboardView.exe.config
+F:\Phase Shift\extension\PhaseShiftStoryboardView\PhaseShiftStoryboardView.pdb
+F:\Phase Shift\extension\PhaseShiftStoryboardView\PhaseShiftStoryboardView.vshost.exe
+F:\Phase Shift\extension\PhaseShiftStoryboardView\PhaseShiftStoryboardView.vshost.exe.config
+F:\Phase Shift\extension\PhaseShiftStoryboardView\PhaseShiftStoryboardView.vshost.exe.manifest
+F:\Phase Shift\extension\PhaseShiftStoryboardView\snapshot_blob.bin
+F:\Phase Shift\extension\PhaseShiftStoryboardView\widevinecdmadapter.dll
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\am.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\ar.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\bg.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\bn.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\ca.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\cs.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\da.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\de.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\el.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\en-GB.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\en-US.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\es-419.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\es.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\et.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\fa.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\fi.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\fil.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\fr.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\gu.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\he.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\hi.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\hr.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\hu.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\id.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\it.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\ja.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\kn.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\ko.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\lt.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\lv.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\ml.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\mr.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\ms.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\nb.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\nl.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\pl.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\pt-BR.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\pt-PT.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\ro.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\ru.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\sk.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\sl.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\sr.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\sv.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\sw.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\ta.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\te.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\th.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\tr.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\uk.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\vi.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\zh-CN.pak
+F:\Phase Shift\extension\PhaseShiftStoryboardView\locales\zh-TW.pak
+
+The Careers folder can be extratced into the existing Phase Shift Careers folder unless you game already has an existing
+"The Beatles" career. However, this is typically not necessary since the contents is for reference only (and does not
+include the accompanying music which makes it a non-playable career). The intention of the included Careers folder is to
+show the naming convention of the html content and to demonstrate how the band name can be extracted and the inserted into
+the html content.
